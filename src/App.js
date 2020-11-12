@@ -1,8 +1,9 @@
 import "./App.scss";
+import { useState } from "react";
 import Pokelist from "./components/PokeList";
 
 function App() {
-  const data = [
+  const [data, setData] = useState([
     {
       id: 1,
       name: "bulbasaur",
@@ -83,12 +84,12 @@ function App() {
       url:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
     },
-  ];
+  ]);
 
   return (
     <div className="main">
       <h1 className="main__title">Mi lista de Pokemon</h1>
-      <Pokelist data={data} />;
+      <Pokelist data={data} />
     </div>
   );
 }
