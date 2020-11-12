@@ -1,10 +1,10 @@
 import React from "react";
 import Pokemon from "./Pokemon";
-import "./PokiList.scss";
+import "./PokeList.scss";
 
 const PokeList = (props) => {
   const dataList = props.data.map((item, i) => (
-    <li key={i}>
+    <li key={i} className="pokemon">
       <Pokemon data={item} />
     </li>
   ));

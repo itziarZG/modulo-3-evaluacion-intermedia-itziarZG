@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Pokelist from "./components/PokeList";
 
 function App() {
@@ -87,7 +87,7 @@ function App() {
 
   return (
     <div className="main">
-      <h1 className="title">Mi lista de Pokemon</h1>
+      <h1 className="main__title">Mi lista de Pokemon</h1>
       <Pokelist data={data} />;
     </div>
   );

@@ -2,7 +2,8 @@
   border: 1px solid black;
   border-radius: 5%;
   background-color: azure;
-  width: 150px;
+  width: 170px;
+  margin: 5px;
 
   &__logo {
     width: 100%;
@@ -12,5 +13,21 @@
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 5px;
+  }
+  &__text {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+
+    &__item {
+      text-transform: uppercase;
+      color: white;
+      font-size: small;
+      background-color: grey;
+      width: fit-content;
+      border-radius: 15%;
+      padding: 0 2px;
+      margin-right: 10px;
+    }
   }
 }
