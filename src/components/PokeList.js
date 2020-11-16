@@ -3,8 +3,8 @@ import Pokemon from "./Pokemon";
 import "./PokeList.scss";
 
 const PokeList = (props) => {
-  const dataList = props.data.map((item, i) => (
-    <li key={i} className="pokemon">
+  const dataList = props.data.map((item) => (
+    <li key={item.id} className="pokemon">
       <Pokemon data={item} />
     </li>
   ));

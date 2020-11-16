@@ -3,7 +3,7 @@ import { useState } from "react";
 import Pokelist from "./components/PokeList";
 
 function App() {
-  const [data, setData] = useState([
+  const [data] = useState([
     {
       id: 1,
       name: "bulbasaur",
