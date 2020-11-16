@@ -8,4 +8,4 @@ La web consiste en un **listado de pokemon**, con una **tarjeta** para cada uno 
 
 He creado el componente Pokemon que renderiza la tarjeta de un Pokemon con su logo, el nombre y sus fortalezas.
 
-Desde otro componente PokemonList mapeo la información que me llega para llamar X veces al elemento Pokemon con su información.
+Desde otro componente PokemonList mapeo la información que me llega, en este caso del componente superior, la APP, para llamar X veces al elemento Pokemon con la información concreta de cada uno de ellos y se renderizan como un listado.
