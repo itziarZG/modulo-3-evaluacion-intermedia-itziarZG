@@ -15,7 +15,7 @@ function App() {
       (pok) => parseInt(pok.id) === parseInt(ev.currentTarget.id)
     );
     pokemons[isFavItem].isFav = !pokemons[isFavItem].isFav;
-    setFavPoks(pokemons);
+    setFavPoks([...pokemons]);
     console.log(pokemons);
   };
   console.log("cuando", pokemons);
